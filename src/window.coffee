@@ -1,4 +1,4 @@
-blessed = require 'blessed'
+blessed = require 'massa-blessed'
 pty = require './pty'
 {min, max} = Math
 

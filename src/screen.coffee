@@ -1,4 +1,4 @@
-blessed = require 'blessed'
+blessed = require 'massa-blessed'
 
 module.exports = ->
   screen = blessed.screen()
