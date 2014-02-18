@@ -59,7 +59,7 @@ module.exports = (window, command) ->
 
 
   term.on 'error', (error) ->
-    # console.error error.stack
+    console.error error.stack
   term.on 'exit', ->
     window.destroy()
 

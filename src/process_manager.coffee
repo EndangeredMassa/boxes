@@ -59,6 +59,5 @@ module.exports = (screen) ->
     if data? && activeWindow?.term?
       activeWindow.term.write data
 
-
   spawnProcess 'nsh'
 
