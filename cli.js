@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
-require(__dirname + '/lib'));
+require(__dirname + '/lib');
 
