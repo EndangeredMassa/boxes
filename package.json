@@ -1,0 +1,17 @@
+{
+  "name": "bin-boxes",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node lib/index.js"
+  },
+  "bin": "lib/cli.js",
+  "devDependencies": {
+    "coffee-script-redux": "2.0.0-beta8"
+  },
+  "dependencies": {
+    "blessed": "EndangeredMassa/blessed#zindex-fix",
+    "pty.js": "chjj/pty.js"
+  }
+}
