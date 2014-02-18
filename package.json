@@ -1,5 +1,5 @@
 {
-  "name": "bin-boxes",
+  "name": "boxes",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "coffee-script-redux": "2.0.0-beta8"
   },
   "dependencies": {
-    "blessed": "EndangeredMassa/blessed#zindex-fix",
+    "blessed": "git://github.com/EndangeredMassa/blessed.git#zindex-fix",
     "pty.js": "chjj/pty.js"
   }
 }
