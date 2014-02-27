@@ -3,7 +3,7 @@ pty = require './pty'
 {min, max} = Math
 
 offsetTop = 0
-offsetLeft = 0
+offsetLeft = 40
 
 module.exports = (screen, options) ->
   options.top ?= (offsetTop += 4)

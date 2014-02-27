@@ -14,6 +14,7 @@ COFFEE=node_modules/.bin/coffee --js
 MOCHA=node_modules/.bin/mocha --compilers coffee:coffee-script-redux/register -r coffee-script-redux/register -u tdd -R dot
 
 build: $(LIB)
+	@cp vendor/* lib
 
 dev: build
 	@node lib/index.js
