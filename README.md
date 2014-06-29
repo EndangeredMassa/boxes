@@ -8,3 +8,6 @@ node: `npm install boxes`
 
 nodeOS: `npkg install boxes`
 
+# license
+
+[MIT](LICENSE)
